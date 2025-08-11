@@ -100,14 +100,51 @@ else:
     print(f"{favorite_color} is not a primary color.")
 print()
 
-# Example 10: Working with user input (commented out for demo)
-print("10. User Input Example (commented out)")
-print("# Uncomment the following lines to test with user input:")
-print("# name = input('Enter your name: ')")
-print("# if name:")
-print("#     print(f'Hello, {name}!')")
-print("# else:")
-print("#     print('You didn't enter a name!')")
+# Example 10: Working with user input
+print("10. User Input Examples")
+print("Here are examples of how input() works with if statements:")
+print()
+
+# Example 10a: Basic input() usage
+print("Example A: Reading user input")
+print("Code: name = input('Enter your name: ')")
+print("      if name:")
+print("          print(f'Hello, {name}!')")
+print("      else:")
+print("          print('You didn't enter a name!')")
+print()
+
+# Example 10b: Converting input to integer
+print("Example B: Converting input to integer")
+print("Code: age_str = input('Enter your age: ')")
+print("      age = int(age_str)")
+print("      if age >= 18:")
+print("          print('You can vote!')")
+print("      else:")
+print("          print('Too young to vote.')")
+print()
+
+# Example 10c: Input validation
+print("Example C: Input validation with try-except")
+print("Code: try:")
+print("          age = int(input('Enter your age: '))")
+print("          if age >= 18:")
+print("              print('You can vote!')")
+print("          else:")
+print("              print('Too young to vote.')")
+print("      except ValueError:")
+print("          print('Please enter a valid number!')")
+print()
+
+# Example 10d: Multiple input conditions
+print("Example D: Multiple input conditions")
+print("Code: favorite_color = input('Enter your favorite color: ').lower()")
+print("      if favorite_color == 'red' or favorite_color == 'blue':")
+print("          print('Great choice! That's a primary color.')")
+print("      elif favorite_color == 'green':")
+print("          print('Nice! Green is the color of nature.')")
+print("      else:")
+print("          print('That's an interesting color choice!')")
 print()
 
 print("=== End of Demo ===")

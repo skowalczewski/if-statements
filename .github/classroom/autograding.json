@@ -1,0 +1,44 @@
+{
+  "tests": [
+    {
+      "name": "Test age 16 - Too young to vote",
+      "setup": "",
+      "run": "echo '16' | python exercise.py",
+      "input": "",
+      "output": "Too young to vote.",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 25
+    },
+    {
+      "name": "Test age 18 - Can vote",
+      "setup": "",
+      "run": "echo '18' | python exercise.py",
+      "input": "",
+      "output": "You can vote!",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 25
+    },
+    {
+      "name": "Test age 25 - Can vote",
+      "setup": "",
+      "run": "echo '25' | python exercise.py",
+      "input": "",
+      "output": "You can vote!",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 25
+    },
+    {
+      "name": "Test age 12 - Too young to vote",
+      "setup": "",
+      "run": "echo '12' | python exercise.py",
+      "input": "",
+      "output": "Too young to vote.",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 25
+    }
+  ]
+}
