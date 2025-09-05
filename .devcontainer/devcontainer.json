@@ -9,7 +9,8 @@
       ],
       "settings": {
         "github.copilot.enable": false,
-        "github.copilot.inlineSuggest.enable": false
+        "github.copilot.inlineSuggest.enable": false,
+        "github.copilotchat.enable": false
       }
     }
   }
