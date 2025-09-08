@@ -1,5 +1,16 @@
 {
     "github.copilot.enable": false,
     "github.copilot.inlineSuggest.enable": false,
-    "github.copilotchat.enable": false
+    "github.copilotchat.enable": false,
+    "github.copilot.advanced": {
+        "inlineSuggest": {
+            "enable": false
+        },
+        "panel": {
+            "enable": false
+        },
+        "commands.enable": false,
+        "notebooks.enable": false,
+        "chat.enable": false
+    }
 }
